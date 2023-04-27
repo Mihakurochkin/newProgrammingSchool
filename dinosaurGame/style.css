@@ -24,9 +24,47 @@
 }
 @keyframes cactusMov {
     0% {
-        left: 580px;;
+        left: 580px;
     }
     100% {
         left: -20px;
     }
+}
+
+.jump {
+    animation: jump 300ms linear;
+}
+
+@keyframes jump {
+    0% {
+        top: 150px;
+    }
+    30% {
+        top: 130px;
+    }
+    50% {
+        top: 80px
+    }
+    80% {
+        top: 130px;
+    }
+    100% {
+        top: 150px;
+    }
+}
+
+/* 0% {
+    top: 150px;
+}
+30% {
+    top: 130px;
+}
+50% {
+    top: 80px;
+}
+80% {
+    top: 130px;
+}
+100% {
+    top: 150px;
 }
